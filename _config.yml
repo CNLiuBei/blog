@@ -4,9 +4,9 @@
 
 # Site
 title: LiuBei的博客
-subtitle: '技术博客 | 全栈开发者'
+subtitle: '技术博客 | 代码爱好者'
 description: '分享技术，记录成长，持续学习。专注于Web开发、云计算和开源技术。'
-keywords: Hexo,博客,技术,Web开发,Cloudflare,Twikoo,前端,后端,全栈开发
+keywords: Hexo,博客,技术,Web开发,Cloudflare,Twikoo,前端,后端
 author: LiuBei
 language: zh-CN
 timezone: 'Asia/Shanghai'

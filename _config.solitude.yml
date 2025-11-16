@@ -66,12 +66,9 @@ nav:
 hometop:
   enable: true
   banner:
-    title: LiuBei的技术博客<br >分享学习与成长 # 大字
+    title: LiuBei 的技术博客 # 大字
     desc:
-      记录技术，分享经验，持续学习 # 小字
-      # - 我只是一个普通的程序员
-      # - 但我有一个不平凡的梦想
-      # - 我希望能够改变世界
+      记录技术 · 分享经验 · 持续学习 # 小字
     icon:
       Hexo: # name
         img: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg # url
@@ -79,29 +76,24 @@ hometop:
       Cloudflare:
         img: https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg
         color: "#f38020"
-      Twikoo:
-        img: https://cdn.jsdelivr.net/gh/imaegoo/twikoo/docs/static/logo.png
-        color: "#5cb3cc"
-      MongoDB:
-        img: https://www.mongodb.com/assets/images/global/favicon.ico
-        color: "#13aa52"
       Git:
         img: https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png
         color: "#f05032"
-      Netlify:
-        img: https://www.netlify.com/v3/img/components/logomark.png
-        color: "#00c7b7"
+      JavaScript:
+        img: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg
+        color: "#f7df1e"
   group:
-    教程: /categories/教程/ || fas fa-book || linear-gradient(to right,#667eea,#764ba2)
-    Hexo: /tags/Hexo/ || fab fa-hexo || linear-gradient(to right,#0e83cd,#00d4ff)
-    Cloudflare: /tags/Cloudflare/ || fas fa-cloud || linear-gradient(to right,#f38020,#fa6400)
+    📚 教程: /categories/教程/ || fas fa-book || linear-gradient(to right,#667eea,#764ba2)
+    🏷️ 标签: /tags/ || fas fa-tags || linear-gradient(to right,#42b883,#35495e)
+    📝 归档: /archives/ || fas fa-archive || linear-gradient(to right,#f093fb,#f5576c)
+    🔗 友链: /links/ || fas fa-link || linear-gradient(to right,#4facfe,#00f2fe)
   recommendList:
     enable: true
-    sup: 置顶
-    title: LiuBei的博客主页
-    url: /
+    sup: 📌 推荐阅读
+    title: 使用 Cloudflare Workers 搭建 TMDB 代理服务
+    url: /2025/11/16/使用Cloudflare-Workers搭建TMDB代理服务/
     img: https://vip.123pan.cn/1821322860/yk6baz03t0n000d7w33hhd7o8sxxxyi3DIYvDIDvDqYzDcxPAda0DY==.png
-    color: "none"
+    color: "linear-gradient(to right, #667eea, #764ba2)"
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -115,13 +107,13 @@ aside:
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
     noSticky: "about"
-    Sticky: "allInfo,newestPost"
+    Sticky: "newestPost,allInfo"
   post: # on the article page
     noSticky: "about"
-    Sticky: "newestPost,newest_comment"
+    Sticky: "newestPost"
   page: # on the page
     noSticky: "about"
-    Sticky: "newestPost,allInfo"
+    Sticky: "newestPost"
   # 菜单栏位置(0: 左 1: 右)
   position: 1 # Sidebar positioning(0: left 1: right)
 
@@ -133,25 +125,27 @@ aside:
       img: https://vip.123pan.cn/1821322860/ymjew503t0l000d7w32x789txia47ve4DIYvDIDvDqYzDcxPAda0DY==.png # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 技术博客 | 全栈开发者
+    description: 技术博客 | 代码爱好者
     # 内容 / Content
     content: 分享技术，记录成长，持续学习 # 这是我的博客 / This is my Blog
     state:
       morning: ✨ 早上好，新的一天开始了
-      noon: 🍲 午餐时间
-      afternoon: 🌞 下午好
-      night: 早点休息
-      goodnight: 晚安 😴
+      noon: 🍱 午餐时间，稍作休息
+      afternoon: ☕ 下午好，继续加油
+      night: 🌙 夜深了，早点休息
+      goodnight: 💤 晚安，好梦
     witty_words:
-      - 代码改变世界
-      - 每天进步一点点
-      - 保持学习，持续成长
-      - 简单可靠，注重实现
+      - 💻 代码改变世界
+      - 📈 每天进步一点点
+      - 📚 保持好奇，持续学习
+      - ⚡ 简单可靠，注重实现
+      - 🎯 专注当下，持续精进
+      - 🚀 用技术创造价值
     # social
     # 社交信息图标
     information:
-    #  Github: https://github.com/everfu || fab fa-github # Name: link || icon
-    #  Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+      Github: https://github.com/CNLiuBei || fab fa-github # Name: link || icon
+      Mail: mailto:cn.liubei@qq.com || far fa-envelope
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -168,12 +162,15 @@ aside:
   # 标签
   tags:
     enable: true
-    limit: 20 # Number of tags displayed
+    limit: 30 # Number of tags displayed
     # Highlighted tags
     highlight_list:
       - Hexo
       - Cloudflare
       - Twikoo
+      - 教程
+      - 部署
+      - 静态博客
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -217,7 +214,7 @@ page:
   categories: true
   # list: Sort List / 1: Follow HomeList
   # list: 排序列表 / 1: 跟随首页列表
-  archives: 0
+  archives: list
   # Default value
   # 默认值
   default:
@@ -344,7 +341,7 @@ display_mode:
   type: auto
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: false
+  universe: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -386,8 +383,8 @@ expire:
 # Home page article configuration information
 # 首页文章配置信息
 index_post_list:
-  direction: row # row / column
-  column: 2 # 2: 2 columns 3: 3 columns
+  direction: column # row / column
+  column: 3 # 2: 2 columns 3: 3 columns
   cover: both
 # --------------------------- end ---------------------------
 
@@ -396,10 +393,10 @@ index_post_list:
 # 相关文章
 related_post:
   enable: true
-  limit: 2
+  limit: 4
   # created: release date / updated: update date
   # created: 发布日期 / updated: 更新日期
-  date_type: created
+  date_type: updated
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -517,11 +514,9 @@ footer:
   information:
     author: https://vip.123pan.cn/1821322860/ymjew503t0l000d7w32x789txia47ve4DIYvDIDvDqYzDcxPAda0DY==.png # img url / false
     left:
-      Github: https://github.com || fab fa-github # 名称: 链接 || 图标
-      Mail: mailto:liubei@example.com || far fa-envelope
+      Github: https://github.com/CNLiuBei || fab fa-github # 名称: 链接 || 图标
+      Mail: mailto:cn.liubei@qq.com || far fa-envelope
     right:
-      RSS: /atom.xml || fas fa-rss
-      搜索: javascript:openSearch() || fas fa-search
   # 友情链接
   group:
     导航:
@@ -632,13 +627,13 @@ lazyload:
 loading:
   # Full screen loading
   # 全屏加载
-  fullpage: true
+  fullpage: false
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
   favicon: https://vip.123pan.cn/1821322860/ymjew503t0l000d7w32x789txia47ve4DIYvDIDvDqYzDcxPAda0DY==.png
   # Pace loading
   # Pace 加载
-  pace: true
+  pace: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -665,7 +660,7 @@ highlight:
 # --------------------------- start ---------------------------
 # Lightbox
 # 图片灯箱
-lightbox: false
+lightbox: true
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
 fancybox: true # fancybox
@@ -748,7 +743,7 @@ extends:
   # Insert in body
   # 插入到 body
   body:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+  #  - <script src="/js/random-recommend.js"></script>
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -777,7 +772,7 @@ comment:
   commentBarrage: false
   # Lazy load
   # 懒加载评论区
-  lazyload: false
+  lazyload: true
   # Whether to display the comment count
   # 显示评论数
   count: true
@@ -855,7 +850,7 @@ search:
 
   # Local search
   local:
-    preload: false
+    preload: true
     CDN: # url: search.xml
 
   # DocSearch

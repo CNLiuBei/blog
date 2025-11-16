@@ -1,0 +1,105 @@
+# 关于页面配置
+# Solitude 主题使用此文件渲染关于页面
+
+# 顶部标签悬浮
+authorinfo:
+  leftTags:
+    -  技术博主
+    - 🎯 终身学习者
+    - 💻 代码爱好者
+  rightTags:
+    - 代码改变世界 💻
+    - 持续学习成长 📚
+    - 简单可靠实用 ⚡
+  image: https://vip.123pan.cn/1821322860/ymjew503t0l000d7w32x789txia47ve4DIYvDIDvDqYzDcxPAda0DY==.png
+
+# 页面标题
+title: 关于本站
+
+# 个人信息展示模块
+contentinfo:
+  sup: 👋 你好，欢迎来到我的博客
+  name: 我是 LiuBei
+  title: 技术爱好者 | 终身学习者
+  tip: 追求
+  slogan: 用代码<br>改变世界
+  mask:
+    - 优质的内容
+    - 实用的教程
+    - 简洁的代码
+    - 持续的进步
+
+# 技能标签模块
+skills:
+  title: 技能栈
+  subtitle: 不断学习与探索
+  tags:
+    - title: HTML
+      color: "#e9572b"
+      icon: fab fa-html5
+    - title: CSS
+      color: "#3c99dc"
+      icon: fab fa-css3
+    - title: JavaScript
+      color: "#f7cb4f"
+      icon: fab fa-js
+    - title: React
+      color: "#61dafb"
+      icon: fab fa-react
+    - title: Vue
+      color: "#42b883"
+      icon: fab fa-vuejs
+    - title: Node.js
+      color: "#83cd29"
+      icon: fab fa-node
+    - title: Python
+      color: "#3776ab"
+      icon: fab fa-python
+    - title: Git
+      color: "#f05032"
+      icon: fab fa-git
+    - title: Docker
+      color: "#2496ed"
+      icon: fab fa-docker
+    - title: Hexo
+      color: "#0e83cd"
+      icon: fab fa-hexo
+
+# 座右铭模块
+motto:
+  title: 座右铭
+  prefix: 保持好奇，
+  content: 持续进步
+
+# 特长模块
+expertise:
+  title: 特长
+  prefix: Web 开发
+  specialist: Web 开发
+  content: 持续学习能力
+  level: 进阶中
+
+# 自定义内容模块
+cause:
+  tip: 初心
+  title: 为什么创建这个博客？
+  content: <br>在这个信息爆炸的时代，我希望通过这个博客<b>记录学习过程，分享技术经验</b>。<br><br>与其让知识零散地存在于各处，不如系统化整理，既方便自己回顾，也能帮助遇到相同问题的人。<br><br>博客的内容主要包括<b>技术教程</b>、<b>开发经验</b>、<b>踩坑记录</b>和<b>学习笔记</b>。我相信通过输出倒逼输入，能让学习更加扎实。<br><br>感谢你的访问，希望这里的内容对你有所帮助！<br>
+
+# 10年之约模块（可选）
+tenyear:
+  tips: 十年之约
+  title: 坚持创作，持续分享
+  start: 2025-11-11
+  end: 2035-11-11
+
+# 赞赏模块（可选，如不需要请设置 enable: false）
+award:
+  enable: false
+  description: 感谢支持，这让我更有动力持续创作优质内容
+  tips: 总金额：¥ {sum}，将用于博客维护和内容创作
+  rewardList: []
+    # - name: "匿名"
+    #   money: 10
+    #   time: 2025-11-16
+    #   icon: fab fa-alipay
+    #   color: "#1677FF"
