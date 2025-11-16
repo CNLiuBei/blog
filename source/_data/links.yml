@@ -1,0 +1,41 @@
+- class_name: 技术社区
+  descr: 优秀的技术社区和平台
+  link_list:
+    - name: Hexo 官方
+      link: https://hexo.io/
+      avatar: https://hexo.io/icon/favicon-196x196.png
+      descr: 快速、简洁且高效的博客框架
+      siteshot: 
+    
+    - name: Cloudflare
+      link: https://www.cloudflare.com/
+      avatar: https://www.cloudflare.com/img/cf-facebook-card.png
+      descr: 免费的 CDN 和静态网站托管
+      siteshot:
+    
+    - name: GitHub
+      link: https://github.com/
+      avatar: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+      descr: 全球最大的代码托管平台
+      siteshot:
+
+- class_name: 主题与工具
+  descr: 实用的主题和开发工具
+  link_list:
+    - name: Solitude 主题
+      link: https://github.com/everfu/hexo-theme-solitude
+      avatar: https://github.com/everfu.png
+      descr: 优雅简洁的 Hexo 主题
+      siteshot:
+    
+    - name: Twikoo
+      link: https://twikoo.js.org/
+      avatar: https://cdn.jsdelivr.net/gh/imaegoo/twikoo/docs/static/logo.png
+      descr: 简洁的评论系统
+      siteshot:
+    
+    - name: MongoDB Atlas
+      link: https://www.mongodb.com/cloud/atlas
+      avatar: https://www.mongodb.com/assets/images/global/favicon.ico
+      descr: 免费的云数据库服务
+      siteshot:

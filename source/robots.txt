@@ -1,0 +1,11 @@
+# robots.txt for LiuBei's Blog
+
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /img/
+
+# Sitemaps
+Sitemap: https://example.com/sitemap.xml
+Sitemap: https://example.com/atom.xml
