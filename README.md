@@ -10,7 +10,7 @@
 
 这是我的个人技术博客，使用 Hexo 搭建，采用 Solitude 主题。主要分享 Web 开发、云计算和开源技术相关内容。
 
-- 🌐 **在线访问**: [https://example.com](https://example.com)
+- 🌐 **在线访问**: [https://liubei.org](https://liubei.org)
 - 📅 **创建时间**: 2025年11月11日
 - 🎨 **主题**: Solitude v3.0.21
 - 💬 **评论系统**: Twikoo (Netlify + MongoDB)
@@ -194,8 +194,7 @@ cover: 封面图片URL (可选)
 
 ## 📧 联系方式
 
-- **邮箱**: liubei@example.com
-- **博客**: [https://example.com](https://example.com)
+- **邮箱**: cn.liubei@qq.com
 - **GitHub**: [@LiuBei](https://github.com)
 
 ---
