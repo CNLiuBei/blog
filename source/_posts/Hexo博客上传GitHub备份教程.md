@@ -878,14 +878,14 @@ hexo new post "文章标题"
 hexo s
 
 # 3. 生成静态文件
-hexo g
+hexo clean && hexo g
 
-# 4. 部署到 GitHub Pages
-hexo d
+# 4. 自动提交到搜索引擎
+node submit-indexnow.js
 
 # 5. 备份源码到 GitHub
-git add .
-git commit -m "新增文章：xxx"
+git add -A
+git commit -m "发布新文章"
 git push
 ```
 
